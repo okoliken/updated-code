@@ -1,0 +1,256 @@
+
+body{
+    overflow-x: hidden;
+}
+
+.bg-img{
+    background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)), url(../IMG-20211112-WA0009.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: #eef3f6;
+    height: 500px;
+    background-size: contain;
+    // transform: translateY(-15px);
+     .hero{
+        height:550px;
+        transform:translateX(30px);
+        // background-color: #fff;
+        .Ingo{
+            width:120px;
+            height:120px;
+            transform: translateY(40px);
+            img{
+                background-color: #fff;
+                width:120px;
+                height:120px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+        }
+      .text{
+          margin-top:80px;
+          .main-text{
+              font-size: 40px;
+              font-weight: bold;
+              color: #696969;
+          }
+          .sub-text{
+              transform: translateY(20px);
+              color: #696969;
+          }
+      }
+    }
+}
+
+.light-blue-bg{
+    margin-top:-15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #02c0d6;
+    height: 150px;
+    min-width: 300px;
+    h2,h4,span{
+        color: #fff;
+    }
+    h2{
+        font-size:24px;
+    }
+    h4{
+        font-size:20px;
+    }
+    span{
+        font-weight: 100;
+    }
+}
+
+.cash-check{
+    margin-top: 30px;
+    h2{
+        font-size: 40px;
+        color: #02c0d6;
+    }
+    h3{
+        font-size:22px;
+        color: #696969;
+    }
+
+    .green-circle{
+        width:60px;
+        height:60px;
+        border:3px solid  #7dcd74;
+        border-radius:50%;
+        text-align: center;
+    span{
+        transform: translateY(5px);
+        display: inline-block;
+        color: #7dcd74;
+        font-size:28px;
+        font-weight: bold;
+    }
+    }
+
+    .cash-text{
+        h4{
+            font-size:26px;
+            font-weight: bold;
+            color: #02c0d6;
+        }
+        p{
+            color: #696969;
+            font-size:17px;
+        }
+    }
+}
+
+.faq{
+    background-color: #eef2f3;
+    // width: 100%;
+    // padding: 10px;
+    height:120px;
+    h4{
+        transform: translateY(40px);
+        color: #696969;
+        a{
+            text-decoration: underline !important;
+        }
+    }
+}
+.download{
+    text-align: center;
+    margin-top:50px;
+    color: #02c0d6;
+    height:120px;
+    h3{
+        font-size:30px;
+        font-weight: 600;
+    }
+}
+
+footer{
+    margin-top: 150px;
+    border-top:1px solid #02c0d6;
+    margin-left: 20px;
+    margin-right: 20px;
+   div{
+       transform: translateY(50px);
+    p{
+        color:#696969;
+        // font-size: 12px;
+    }
+   }
+}
+@media (max-width:768px) {
+    
+body{
+    overflow-x: hidden;
+}
+
+  .bg-img{
+    height:430px;
+    .hero{
+        height:430px;
+        // z-index:100;
+        transform: translateY(10px) translateX(30px);
+        overflow: hidden;
+        .Ingo{
+            width:60px;
+            height:60px;
+            transform: translateY(40px);
+            img{
+                background-color: #fff;
+                width:60px;
+                height:60px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+        }
+      .text{
+          .main-text{
+              font-size: 24px;
+              color: #eef3f6;
+          }
+          .sub-text{
+            color: #eef3f6;
+
+          }
+      }
+    }
+  }
+    .faq{
+        margin-top: 50px;
+        h4{
+            font-size: 20px;
+        }
+    }
+
+    .light-blue-bg{
+        height: auto;
+        padding: 10px 0;
+        h2{
+            font-size:20px;
+        }
+        h4{
+            font-size:15px;
+        }
+        span{
+            font-weight: 100;
+        }
+    }
+    
+
+   .cash-check{
+
+    h2{
+        font-size: 30px;
+        color: #02c0d6;
+    }
+    h3{
+        font-size:18px;
+        color: #696969;
+    }
+    .green-circle{
+        width:35px;
+        height:35px;
+        border:3px solid  #7dcd74;
+        border-radius:50%;
+        text-align: center;
+    span{
+        transform: translateY(2px);
+        display: inline-block;
+        color: #7dcd74;
+        font-size:18px;
+        font-weight: bold;
+    }
+    }
+
+    .cash-text{
+        h4{
+            font-size:22px;
+            font-weight: bold;
+            color: #02c0d6;
+        }
+        p{
+            color: #696969;
+            font-size:15px;
+        }
+    }
+
+   }
+    .download{
+
+        h3{
+            font-size:20px;
+        }
+    }
+
+    footer{
+        margin-top: 50px;
+        p{
+            color:#696969;
+            font-size: 12px;
+        }
+    }
+}
