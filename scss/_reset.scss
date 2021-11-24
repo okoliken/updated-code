@@ -4,4 +4,23 @@
 *{
     text-decoration: none !important;
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:roboto;
+}
+
+.flex{
+    display: flex;
+        align-items: center;
+}
+
+@media (max-width:1000px) {
+    .flex{
+        display: flex;
+        align-items: center;
+    }
 }
